@@ -13,6 +13,10 @@
 		0751E29D265FE130000C345F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0751E29B265FE130000C345F /* Main.storyboard */; };
 		0751E29F265FE135000C345F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0751E29E265FE135000C345F /* Assets.xcassets */; };
 		0751E2A2265FE135000C345F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0751E2A0265FE135000C345F /* LaunchScreen.storyboard */; };
+		0751E2AB265FE611000C345F /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0751E2AA265FE611000C345F /* StockCell.swift */; };
+		0751E2AE265FECEB000C345F /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0751E2AD265FECEB000C345F /* Stock.swift */; };
+		0751E2B52661450B000C345F /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0751E2B42661450B000C345F /* Stocks.swift */; };
+		0751E2B82661486A000C345F /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0751E2B72661486A000C345F /* NetworkHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0751E29E265FE135000C345F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0751E2A1265FE135000C345F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0751E2A3265FE135000C345F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0751E2AA265FE611000C345F /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+		0751E2AD265FECEB000C345F /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		0751E2B42661450B000C345F /* Stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks.swift; sourceTree = "<group>"; };
+		0751E2B72661486A000C345F /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				0751E295265FE130000C345F /* AppDelegate.swift */,
 				0751E297265FE130000C345F /* SceneDelegate.swift */,
-				0751E299265FE130000C345F /* ViewController.swift */,
 				0751E29B265FE130000C345F /* Main.storyboard */,
+				0751E299265FE130000C345F /* ViewController.swift */,
+				0751E2AA265FE611000C345F /* StockCell.swift */,
+				0751E2B42661450B000C345F /* Stocks.swift */,
+				0751E2AD265FECEB000C345F /* Stock.swift */,
+				0751E2B72661486A000C345F /* NetworkHandler.swift */,
 				0751E29E265FE135000C345F /* Assets.xcassets */,
 				0751E2A0265FE135000C345F /* LaunchScreen.storyboard */,
 				0751E2A3265FE135000C345F /* Info.plist */,
@@ -139,7 +151,11 @@
 			files = (
 				0751E29A265FE130000C345F /* ViewController.swift in Sources */,
 				0751E296265FE130000C345F /* AppDelegate.swift in Sources */,
+				0751E2AB265FE611000C345F /* StockCell.swift in Sources */,
+				0751E2AE265FECEB000C345F /* Stock.swift in Sources */,
+				0751E2B52661450B000C345F /* Stocks.swift in Sources */,
 				0751E298265FE130000C345F /* SceneDelegate.swift in Sources */,
+				0751E2B82661486A000C345F /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
